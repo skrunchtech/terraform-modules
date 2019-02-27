@@ -7,6 +7,8 @@ This repository contains several terraform modules for consumption.
 Name | Path | Short Description
 ---------|----------|---------
  vpc | /vpc | A simple VPC module that implements a VPC with several public subnets
+ iam_user | /iam_user | Module to create an IAM user
+ groups | /groups | A simple module that implements three defacto groups, full-admin, RO-admins and developers
 
 ### Usage
 ---
@@ -30,4 +32,4 @@ MIT
 
 ### TODO (WIP)
 ---
-Add tests / integration with circle CI to verify format, lint, validation
+Add tests / integration with CI to verify format, lint, validation
