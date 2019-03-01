@@ -53,10 +53,10 @@ output "billing_admin_iam_unique_id" {
 #   value       = "${element(concat(aws_iam_group_membership.developers.*.users, list("")), 0)}"
 # }
 
-output "billing_admins_iam_group_users" {
-  description = "billing_admin Group users"
-  value       = "${element(concat(aws_iam_group_membership.billing_admins.*.users, list("")), 0)}"
-}
+# output "billing_admins_iam_group_users" {
+#   description = "billing_admin Group users"
+#   value       = "${element(concat(aws_iam_group_membership.billing_admins.*.users, list("")), 0)}"
+# }
 
 output "force_mfa_policy_arn" {
   description = "Force MFA Policy ARN"
