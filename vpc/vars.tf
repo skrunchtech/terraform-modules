@@ -33,3 +33,14 @@ variable "map_public_ip_on_launch" {
   description = "Assign public IP by default to instances launched"
   default = false
 }
+
+variable "enable_dns_support" {
+  description = "Enable dns support for your vpc"
+  default     = true
+}
+
+variable "enable_dns_hostnames" {
+  description = "Enable dns hostnames for your vpc"
+  default     = true
+}
+
